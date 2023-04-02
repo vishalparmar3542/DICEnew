@@ -1,0 +1,59 @@
+
+*{
+  padding:0;
+  margin:0;
+  
+}
+body{
+  margin-top:100px;
+  background-color: #F9DBBB;
+}
+.header{
+  text-align: center;
+  font-family: 'Lobster';
+  font-size: 2rem;
+  
+}
+
+.player{
+  display:flex;
+  justify-content:space-around;
+  font-family: 'Lobster';
+  margin: 10px auto 10px auto;
+  
+}
+.dice{
+  display:flex;
+
+  
+  margin: 0px auto 0px auto;
+  justify-content:space-around;
+}
+.dice img{
+  border: 0px solid #082032;
+  border-radius: 10px;
+}
+footer{
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.roll{
+  text-align: center;
+
+  margin:10px auto 0px auto;
+
+}
+.btn{
+  padding:8px 40px;
+  outline: none;
+  border: 1px;
+  border-radius: 10px;
+  background-color: #BAD7E9;
+  font-family: 'lobster';
+  font-size: 30px;
+
+}
+.btn:hover{
+  padding:9px 41px;
+}
